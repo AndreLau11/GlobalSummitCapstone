@@ -11,6 +11,122 @@ p {
   padding-bottom: 20px;
 }
 
+ul {
+  list-style: none;
+}
+
+UL > li > a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.loginsection {
+  background-color: rgb(43, 40, 40);
+  color: #fff;
+  margin-left: -12px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  gap: 10px;
+  margin: 0;
+  display: none;
+}
+
+.loginoptions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loginsection > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navigationPanel {
+  background-color: #fff;
+  width: 100%;
+}
+
+.sub-navigationPanel {
+  display: flex;
+  flex-direction: row;
+}
+
+.loginimg {
+  width: 20px;
+  height: auto; 
+}
+
+.companiesLogo {
+  display: flex;
+  flex-direction: row;
+  width: 160px;
+  height: 40px;
+  font-weight: 900;
+  background-color: #fff;
+}
+
+.companiesLogo > p {
+  margin: 0;
+  padding: 0;
+}
+
+.logoIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.loginsection > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.generalOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  font-size: 12px;
+  height: 40px;
+  width: 100%;
+  display: none;
+}
+
+.sub-generalOptions {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.sub-generalOptionsDivision {
+  display: flex;
+  align-items: center;
+}
+
+.mainparagraph {
+  border: 2px solid #fff;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.aboutusparagraph {
+  background-color: #fff;
+  padding: 20px;
+}
+
 .mainpage,
 .aboutus {
   padding-top: 50px;
@@ -35,7 +151,6 @@ p {
   width: 100%;
   height: 100%;
   mix-blend-mode: normal;
-  position: absolute;
   margin-left: -10px;
   align-items: center;
 }
@@ -78,4 +193,19 @@ p {
   line-height: 1.2;
   font-weight: 900;
   padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .hamCont {
+    display: none;
+  }
+
+  .loginsection {
+    display: flex;
+  }
+
+  .generalOptions {
+    display: flex;
+  }
 }
