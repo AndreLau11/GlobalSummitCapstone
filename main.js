@@ -1,4 +1,4 @@
-//closing and opening the hamburguer menu
+// closing and opening the hamburguer menu
 
 const hamburguer = document.getElementById('hamburguer');
 const navBar = document.getElementById('mobile-nav');
@@ -11,13 +11,13 @@ const news = document.getElementById('news');
 const campaign = document.getElementById('campaign');
 
 function closeTab() {
-    navBar.classList.add('hidden');
-    hamburguer.classList.remove('hidden');
+  navBar.classList.add('hidden');
+  hamburguer.classList.remove('hidden');
 }
 
 function openTab() {
-    hamburguer.classList.add('hidden');
-    navBar.classList.remove('hidden');
+  hamburguer.classList.add('hidden');
+  navBar.classList.remove('hidden');
 }
 
 hamburguer.addEventListener('click', openTab);
