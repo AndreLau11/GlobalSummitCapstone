@@ -44,18 +44,15 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 👤 **Hectot Andre Lau**
 
 - GitHub: [@AndreLau11](https://github.com/AndreLau11)
 - Twitter: [@HectorAndreLau](https://twitter.com/HectorAndreLau)
 - LinkedIn: [@HectorAndreLauEstrada](https://www.linkedin.com/in/h%C3%A9ctor-andr%C3%A9-lau-estrada-b4947795/)
 
+👤 **Cindy Shin**
+
+- Cindy Shin in Behance: [@CindyShin](https://www.behance.net/adagio07)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

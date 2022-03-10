@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="styles.css">
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="https://www.1001fonts.com/cocogoose-pro-font.html" rel='stylesheet' type='text/css'>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="main.js" defer></script>
     <title>Videogames</title>
 </head>
 <body>
     <header class="head container-fluid">
         <div class="loginsection container-fluid" >
             <ul class="loginoptions container">
-                <li><a href=""><img class="loginimg" src="./images/first_page/facebook-logo-grey.png" alt=" Facebook logo that leads to the author page on the social media"></a></li>
-                <li><a href=""><img class="loginimg" src="./images/first_page/twitter.png" alt="Twitter logo that leads to the author page on the social media"></a></li>
+                <li><a href="https://www.facebook.com/hectorandre.lauestrada"><img class="loginimg" src="./images/first_page/facebook-logo-grey.png" alt=" Facebook logo that leads to the author page on the social media"></a></li>
+                <li><a href="https://twitter.com/HectorAndreLau"><img class="loginimg" src="./images/first_page/twitter.png" alt="Twitter logo that leads to the author page on the social media"></a></li>
                 <li class="language"><a href="#">English</a></li>
                 <li class="myPage"><a href="#">My Page</a></li>
                 <li class="logOut"><a href="#">Log Out</a></li>
@@ -28,12 +30,13 @@
                 </div>
                 <div class="generalOptions">
                     <div class="companiesLogo">
-                        <a href="https://andrelau11.github.io/GlobalSummitCapstone/"><img class="logoIcon" src="./images/first_page/logo.jpg" alt=""></a>
+                        <a href="index.html"><img class="logoIcon" src="./images/first_page/logo.jpg" alt=""></a>
                         <p>Global Video Games</p>
                     </div>
                     <div class="sub-generalOptionsDivision">
                         <ul class="sub-generalOptions">
-                            <li><a href="#">About</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="main.html">About</a></li>
                             <li><a href="#">Program</a></li>
                             <li><a href="#">Join</a></li>
                             <li><a href="#">Sponsor</a></li>
@@ -47,7 +50,8 @@
         <div id="mobile-nav" class="mobilenav hidden">
             <p id="closeIcon" class="closeicon"><img src="./images/first_page/icn-close.svg" alt=""></p>
             <ul>
-                <li id="aboutus"><a href="#">About Us</a></li>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li id="aboutus"><a href="main.html">About Us</a></li>
                 <li><img src="./images/first_page/Rectangle.png" alt=""></li>
                 <li id="program"><a href="#">Program</a></li>
                 <li><img src="./images/first_page/Rectangle.png" alt=""></li>
@@ -64,12 +68,76 @@
         <div class="mainpage container">
             <h3 class="greetings">"Hello, Sharing World"</h3>
             <h1 class="main">Creating Global Video Forums Regarding The News On Videogames</h1>
-            <p class="mainparagraph">An awesome reunion of videogames news sharing the information on them and how they can change your life on prices and by dedicating yourself to do so, how much are this companies given as rewards and what you need to do in order to attempt to be the new bigest gamer of all the times.</p>
+            <p class="mainparagraph">An awesome reunion of videogame news sharing the information on them and how they can change your life on prices and by dedicating yourself to do so, how much are this companies given as rewards and what you need to do in order to attempt to be the new bigest gamer of all the times.</p>
             <h2 class="mainsubtitl">2022.03.14(Monday) ~ 18(Friday)</h2>
             <p class="mainparagraph2">@Play Station, Nintendo, Epic Game and more.</p>
         </div>
     </header>
-    <script src="js/bootstrap.js"></script>
-    <script src="main.js"></script>
+    <main class="mainContainer container-fluid">
+        <div class="supMainProgram container-fluid">
+            <div class="mainProgram container">
+                <h4 class="classTitle">Main Program</h4>
+                <div class="supProgramSection">
+                    <div class="programSection">
+                        <img src="./images/main/lecture.png" alt="">
+                        <h5>Lecture</h5>
+                        <p>Listen to the speaker from various countries about the messages of sharing and opening.</p>
+                    </div>
+                    <div class="programSection">
+                        <img src="./images/main/CC.png" alt="">
+                        <h5>CC Exhibition</h5>
+                        <p>Appreciate various creations applying CC license or artists, organized from Art Center  Nabi.</p>
+                    </div>
+                    <div class="programSection">
+                        <img src="./images/main/forum.png" alt="">
+                        <h5>Forum</h5>
+                        <p>Have the time to share your thoughts and opinions wiht experts for each topic.</p>
+                    </div>
+                    <div class="programSection">
+                        <img src="./images/main/workshop.png" alt="">
+                        <h5>Workshop</h5>
+                        <p>Try creating your own work using open souce license rather than just wathing at it.</p>
+                    </div>
+                    <div class="programSection">
+                        <img src="./images/main/ignite.png" alt="">
+                        <h5>CC Ignite</h5>
+                        <p>Get opportunities to network with CC affiliates around the world, also after the summit.</p>
+                    </div>
+                    <div class="joinbuttonSection">
+                        <button type="submit" class="joinButton">Join Global Video Forums</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="speakers container">
+            <h4 class="speakersTitle">Featured Speakers</h4>
+            <div id="baseSpeakers" class="baseSpeakers">
+            </div>
+        </div>
+        <div class="partner container-fluid">
+            <div class="subPart container">
+                <h4 class="partnerTitle">Partners</h4>
+                <div class="brands">
+                    <img src="./images/partners/Epic_Games_logo.jpg" alt="Epic Games Logo">
+                    <img src="./images/partners/niantic.jpg" alt="Niantic Company">
+                    <img src="./images/partners/Nintendo.jpg" alt="Nintendo Company">
+                    <img src="./images/partners/playstation.jpg" alt="Playstation">
+                    <img src="./images/partners/Rockstar_Games_Logo.jpg" alt="Rockstar Games">
+                    <img src="./images/partners/Xbox-Logo-2013.jpg" alt="X-box">
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer container">
+            <div class="companiesLogo">
+                <a href="index.html"><img class="logoIcon" src="./images/first_page/logo.jpg" alt=""></a>
+                <p>Global Video Games</p>
+            </div>
+            <div>
+                <p>Creating Global Video Forums Regarding The News On Videogames</p>
+                <p>@some rights reserved</p>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
