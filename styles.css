@@ -1,0 +1,511 @@
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: #272a31;
+  padding-bottom: 20px;
+  font-family: 'lato', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #272a31;
+  font-family: 'lato', sans-serif;
+}
+
+.body1 {
+  background-image: url(./images/first_page/img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.loginsection {
+  background-color: rgb(43, 40, 40);
+  color: #fff;
+  display: none;
+  flex-direction: row;
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  gap: 10px;
+  margin: 0;
+}
+
+.loginoptions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loginsection > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navigationPanel {
+  background-color: #fff;
+  width: 100%;
+}
+
+.sub-navigationPanel {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.loginimg {
+  width: 20px;
+  height: auto;
+}
+
+.companiesLogo {
+  display: flex;
+  flex-direction: row;
+  width: 160px;
+  height: 40px;
+  font-weight: 900;
+  background-color: #fff;
+}
+
+.companiesLogo > p {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+
+.creative {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.creative > p,
+.creative > h4 {
+  text-align: center;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+}
+
+.picture > img {
+  width: 150px;
+  height: auto;
+}
+
+.brands > img {
+  width: 100%;
+  transition: all 0.2s ease-out;
+}
+
+.companiesLogo3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding: 100px;
+}
+
+.companiesLogo3 > a > img {
+  width: 100px;
+  height: auto;
+}
+
+.companiesLogo3 > p {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+}
+
+.mobilenav > ul > li > img {
+  width: 95%;
+}
+
+.brands > img:hover {
+  transform: scale(1.05);
+}
+
+.logoIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.loginsection > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.generalOptions {
+  display: none;
+}
+
+.sub-generalOptions {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.mobilenav > ul > li > a {
+  text-decoration: none;
+  color: #272a31;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 25px;
+}
+
+.sub-generalOptions > li > a:hover {
+  color: #ec5242;
+}
+
+.sub-generalOptionsDivision {
+  display: flex;
+  align-items: center;
+}
+
+.mainparagraph {
+  border: 2px solid #fff;
+  padding: 20px;
+}
+
+.aboutusparagraph {
+  padding: 20px;
+}
+
+.mainpage,
+.aboutus {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hamburguer {
+  width: 25px;
+  height: auto;
+}
+
+.mainpage {
+  align-items: center;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.mobilenav {
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: normal;
+  margin-left: -10px;
+  align-items: center;
+}
+
+.mobilenav > ul {
+  list-style: none;
+  justify-content: center;
+  margin: 60px;
+}
+
+.closeicon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 55px 0 0;
+}
+
+.aboutusparagraph,
+.aboutustitle,
+.aboutusgreetings {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.main,
+.main2 {
+  color: #ec5242;
+  font-size: calc(1.375rem + 1.5vw);
+  font-family: var(--bs-font-sans-serif);
+  line-height: 1.2;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+.mainContainer {
+  padding: 0;
+}
+
+.supMainProgram {
+  background-color: #272a31;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.mainProgram > h4 {
+  color: #fff;
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+
+.programSection {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.075);
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.programSection > h5 {
+  color: #ec5242;
+}
+
+.programSection > p {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.joinbuttonSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.joinButton {
+  background-color: #ec5242;
+  color: #fff;
+  width: 80%;
+  height: 60px;
+}
+
+.speakers {
+  gap: 30px;
+}
+
+.speakersTitle {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.baseSpeakers {
+  gap: 30px;
+}
+
+.pastdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-image: linear-gradient(rgba(221, 52, 33, 0.801), rgba(221, 52, 22, 0.801)), url(./images/pastbackground.jpg);
+  background-size: cover;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pastdiv:hover {
+  transform: scale(1.005);
+}
+
+.pastdiv > h3,
+.pastdiv > p {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.pastdiv > h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.past {
+  padding-bottom: 30px;
+}
+
+.past > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.past > h4,
+.past > p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.subConference {
+  display: flex;
+  gap: 20px;
+  transition: all 0.1s ease-out;
+  padding: 5px 5px 20px 5px;
+  border: 2px solid #f1f1f1;
+}
+
+.subConference > div > p {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.speakerPosition {
+  color: #ec5242;
+}
+
+.partner {
+  background-color: #272a31;
+  display: flex;
+}
+
+.subPart {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.partnerTitle {
+  color: #fff;
+  text-align: center;
+}
+
+.brands {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.footer > div > p {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .mainProgram,
+  .mainpage,
+  .subPart,
+  .loginoptions,
+  .aboutus,
+  .creative,
+  .past,
+  .generalOptions {
+    padding: 0 106.333px;
+  }
+
+  .footer,
+  .speakers {
+    padding: 0 200px;
+  }
+
+  .past {
+    padding-bottom: 50px;
+  }
+
+  .main {
+    width: 70%;
+  }
+
+  .hamCont {
+    display: none;
+  }
+
+  .loginsection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    gap: 10px;
+    margin: 0;
+  }
+
+  .generalOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    height: 40px;
+    width: 100%;
+  }
+
+  .brands {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .joinbuttonSection {
+    display: none;
+  }
+
+  .baseSpeakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    padding-bottom: 20px;
+  }
+
+  .supProgramSection {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+  }
+
+  .programSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .programSection:hover {
+    transform: scale(1.01);
+  }
+
+  .programSection > p {
+    text-align: center;
+  }
+
+  .past > div {
+    flex-direction: row;
+  }
+
+  .pastdiv {
+    width: 100%;
+    height: 200px;
+  }
+}

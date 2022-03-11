@@ -2,56 +2,46 @@
 
 # Project Name
 
-> Description the project.
+> A website that works just perfect for the gaming environment, this is a publicitary page for the videogames and is also a multievent platform that get together players from all the world.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- BOOTSTRAP
+- JAVA SCRIPT
+
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://andrelau11.github.io/GlobalSummitCapstone/)
 
+("C:\Users\hecto\OneDrive\Documentos\GitHub\Microverse\Module one\GlobalSummitCapstone\images\Screenshot.jpg")
 
-## Getting Started
+Find a vdieo description of the page right here: 
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+(https://www.loom.com/share/29f331244147441da8c93eeb734f7fe2)
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Node JS
+- have the file for the bootstrap
+- Install all the linter validation.
 
 ## Authors
 
-👤 **Author1**
+👤 **Hectot Andre Lau**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AndreLau11](https://github.com/AndreLau11)
+- Twitter: [@HectorAndreLau](https://twitter.com/HectorAndreLau)
+- LinkedIn: [@HectorAndreLauEstrada](https://www.linkedin.com/in/h%C3%A9ctor-andr%C3%A9-lau-estrada-b4947795/)
 
-👤 **Author2**
+👤 **Cindy Shin**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- Cindy Shin in Behance: [@CindyShin](https://www.behance.net/adagio07)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
