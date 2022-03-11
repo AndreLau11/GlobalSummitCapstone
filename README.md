@@ -12,16 +12,16 @@
 - BOOTSTRAP
 - JAVA SCRIPT
 
+
 ## Live Demo (if available)
 
 [Live Demo Link](https://andrelau11.github.io/GlobalSummitCapstone/)
 
+("C:\Users\hecto\OneDrive\Documentos\GitHub\Microverse\Module one\GlobalSummitCapstone\images\Screenshot.jpg")
 
-## Getting Started
+Find a vdieo description of the page right here: 
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+(https://www.loom.com/share/29f331244147441da8c93eeb734f7fe2)
 
 To get a local copy up and running follow these simple example steps.
 
@@ -30,17 +30,6 @@ To get a local copy up and running follow these simple example steps.
 - Node JS
 - have the file for the bootstrap
 - Install all the linter validation.
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
 
 ## Authors
 
